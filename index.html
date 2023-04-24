@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Frontend Starter Kit - Zadatak: Inchoo Project "
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <title>Inchoo projekt</title>
+    <script src="js/script.js"></script>
+  </head>
+  <body onload="show()">
+    <div class="basket">
+      <button onclick="basketButton()" class="basket-button">
+        <img src="../images/Shape.png" alt="Basket" />
+      </button>
+    </div>
+
+    <div class="project">
+      <div class="shadow">
+        <div class="clip-path"></div>
+      </div>
+
+      <div class="menu">
+        <h1>My Cart (5 items)</h1>
+        <div onclick="buttonUp()" class="line">
+          <img class="arrow" src="../images/line-up.png" alt="Arrow-up" />
+        </div>
+
+        <ul class="product">
+          <li class="child" id="show1">
+            <img src="../images/image1.png" alt="Image1" />
+            <div class="text">
+              <h2>Set of GT-S Series Cross Drilled</h2>
+              <p>Brand: Brembo</p>
+              <p>Color: Red</p>
+              <h2 class="price">1 x $1770.00</h2>
+            </div>
+          </li>
+          <li class="child" id="show2">
+            <img src="../images/image2.png" alt="Image2" />
+            <div class="text">
+              <h2>Just Disk GT-S Cross Drilled</h2>
+              <p>Brand: Barbour International</p>
+              <p>Size: 405mm</p>
+              <h2 class="price">1 x $950.00</h2>
+            </div>
+          </li>
+          <li class="child" id="show3">
+            <img src="../images/image3.png" alt="Image3" />
+            <div class="text">
+              <h2>GT Slotted 2 Piece Brake Rotors</h2>
+              <p>Brand: Brembo</p>
+              <p>Color: Yellow</p>
+              <h2 class="price">2 x $1670.00</h2>
+            </div>
+          </li>
+          <li class="child" id="show4">
+            <img src="../images/image4.png" alt="Image4" />
+            <div class="text">
+              <h2>Synthetic Break Fluid</h2>
+              <p>Brand: Valvoline</p>
+              <p>Siye: 354ml</p>
+              <h2 class="price">1 x $10.00</h2>
+            </div>
+          </li>
+          <li class="child" id="show5">
+            <img src="../images/image2.png" alt="Image5" />
+            <div class="text">
+              <h2>Just Disk GT-S Cross Drilled</h2>
+              <p>Brand: Barbour International</p>
+              <p>Size: 405mm</p>
+              <h2 class="price">1 x $950.00</h2>
+            </div>
+          </li>
+        </ul>
+
+        <div onclick="buttonDown()" class="line">
+          <img class="arrow" src="../images/line-down.png" alt="Arrow-down" />
+        </div>
+
+        <div class="buttons">
+          <button class="button-1">Edit Cart</button>
+          <button class="button-2">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

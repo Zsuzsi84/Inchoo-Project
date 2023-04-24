@@ -1,0 +1,74 @@
+/***BREAKPOINT 1400px***/
+
+@media (max-width: 1500px) {
+  .project {
+    margin-bottom: 580px;
+  }
+}
+
+/***BREAKPOINT 575px***/
+@media (max-width: 575px) {
+  .basket {
+    margin-left: 230px;
+  }
+
+  .basket-button {
+    height: 65px;
+    width: 76px;
+  }
+
+  .clip-path {
+    margin-left: 230px;
+  }
+
+  .menu {
+    width: 290px;
+    height: 560px;
+    margin-top: -4px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .menu h1 {
+    font-size: 13px;
+  }
+
+  .line {
+    padding-top: 2px;
+    padding-bottom: 5px;
+  }
+
+  .product img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .product h2 {
+    font-size: 13px;
+    line-height: 14px;
+    padding-bottom: 5px;
+  }
+
+  .product p {
+    font-size: 13px;
+    line-height: 14px;
+  }
+
+  .button-1 {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    height: 32px;
+    width: 120px;
+  }
+
+  .button-2 {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    height: 32px;
+    width: 160px;
+    margin-bottom: 350px;
+  }
+}
